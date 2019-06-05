@@ -12,8 +12,8 @@ BTW，感谢指导老师，感谢答辩老师，感谢阿里开源的 FlutterBoo
 
 ## Git Branchs
 
-- `0.0.1`：flutter_app Flutter 最初的样子，用于测试开发环境是否搭配成功。
-- `0.1.0`：flutter_boost 项目测试，此分支后暂时只支持 android。
+- `0.0.1`：flutter_app。Flutter 最初的样子，用于测试开发环境是否搭配成功。
+- `0.1.0`：集成 flutter_boost。项目测试，此分支后暂时只支持 android。
 - `1.x`：module_movie、module_novel、module_cloud_music
 - `2.x`：module_movie => module_douban
 

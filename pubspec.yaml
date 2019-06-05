@@ -1,4 +1,4 @@
-name: flutter_app
+name: flutter_yim
 description: A new Flutter application.
 
 # The following defines the version and build number for your application.
@@ -19,6 +19,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # https://github.com/alibaba/flutter_boost
+  flutter_boost: ^0.0.411
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
