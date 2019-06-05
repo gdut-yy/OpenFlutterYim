@@ -1,0 +1,328 @@
+{
+  "data": [
+    {
+      "name": "kolzb001",
+      "avatarUrl": "assets/mod_wx/gdut_yy.jpg",
+      "sex": "male",
+      "msg": "值得做的事情"
+    },
+    {
+      "name": "kolzb002",
+      "avatarUrl": "assets/mod_wx/gdut_yy.jpg",
+      "sex": "male",
+      "msg": "就是值得做对的事情"
+    },
+    {
+      "name": "暗裔剑魔",
+      "avatarUrl": "assets/mod_wx/avatars/lol_aatrox.png",
+      "sex": "male",
+      "msg": "像英雄一样战斗,或者像懦夫一样死去。"
+    },
+    {
+      "name": "九尾妖狐",
+      "avatarUrl": "assets/mod_wx/avatars/lol_ahri.png",
+      "sex": "female",
+      "msg": "我们心有灵犀，不是么？"
+    },
+    {
+      "name": "离群之刺",
+      "avatarUrl": "assets/mod_wx/avatars/lol_akali.png",
+      "sex": "female",
+      "msg": "奉均衡知命！"
+    },
+    {
+      "name": "牛头酋长",
+      "avatarUrl": "assets/mod_wx/avatars/lol_alistar.png",
+      "sex": "male",
+      "msg": "没什么可以把俺击退！"
+    },
+    {
+      "name": "殇之木乃伊",
+      "avatarUrl": "assets/mod_wx/avatars/lol_amumu.png",
+      "sex": "male",
+      "msg": "我还以为你从来都不会选我呢……"
+    },
+    {
+      "name": "冰晶凤凰",
+      "avatarUrl": "assets/mod_wx/avatars/lol_anivia.png",
+      "sex": "female",
+      "msg": "冰凤展翅！"
+    },
+    {
+      "name": "黑暗之女",
+      "avatarUrl": "assets/mod_wx/avatars/lol_annie.png",
+      "sex": "female",
+      "msg": "你也要来玩吗？很好玩的呦~！"
+    },
+    {
+      "name": "寒冰射手",
+      "avatarUrl": "assets/mod_wx/avatars/lol_ashe.png",
+      "sex": "female",
+      "msg": "明智之选！"
+    },
+    {
+      "name": "铸星龙王",
+      "avatarUrl": "assets/mod_wx/avatars/lol_aurelionsol.png",
+      "sex": "male",
+      "msg": "世间自有万色临空，而我觉得一道彩虹便足为起始"
+    },
+    {
+      "name": "沙漠皇帝",
+      "avatarUrl": "assets/mod_wx/avatars/lol_azir.png",
+      "sex": "male",
+      "msg": "恕瑞玛，你的皇帝回来啦"
+    },
+    {
+      "name": "星界游神",
+      "avatarUrl": "assets/mod_wx/avatars/lol_bard.png",
+      "sex": "male",
+      "msg": "眸~"
+    },
+    {
+      "name": "蒸汽机器人",
+      "avatarUrl": "assets/mod_wx/avatars/lol_blitzcrank.png",
+      "sex": "male",
+      "msg": "发动机已启动，随时可以出发。"
+    },
+    {
+      "name": "复仇焰魂",
+      "avatarUrl": "assets/mod_wx/avatars/lol_brand.png",
+      "sex": "male",
+      "msg": "准备好进入火焰世界了吗？嘿嘿嘿……"
+    },
+    {
+      "name": "弗雷尔卓德之心",
+      "avatarUrl": "assets/mod_wx/avatars/lol_braum.png",
+      "sex": "male",
+      "msg": "心脏,是最强壮的肌肉"
+    },
+    {
+      "name": "皮城女警",
+      "avatarUrl": "assets/mod_wx/avatars/lol_caitlyn.png",
+      "sex": "female",
+      "msg": "好戏开场了！"
+    },
+    {
+      "name": "青钢影",
+      "avatarUrl": "assets/mod_wx/avatars/lol_camille.png",
+      "sex": "female",
+      "msg": "不要有趣，要有用。"
+    },
+    {
+      "name": "魔蛇之拥",
+      "avatarUrl": "assets/mod_wx/avatars/lol_cassiopeia.png",
+      "sex": "female",
+      "msg": "你是否觉得……我很漂亮？"
+    },
+    {
+      "name": "虚空恐惧",
+      "avatarUrl": "assets/mod_wx/avatars/lol_chogath.png",
+      "sex": "male",
+      "msg": "你想要你所知的世界毁灭，是吗？"
+    },
+    {
+      "name": "英勇投弹手",
+      "avatarUrl": "assets/mod_wx/avatars/lol_corki.png",
+      "sex": "male",
+      "msg": "王牌飞行员申请出战！"
+    },
+    {
+      "name": "诺克萨斯之手",
+      "avatarUrl": "assets/mod_wx/avatars/lol_darius.png",
+      "sex": "male",
+      "msg": "只有我才能带领我们走向胜利！"
+    },
+    {
+      "name": "皎月女神",
+      "avatarUrl": "assets/mod_wx/avatars/lol_diana.png",
+      "sex": "female",
+      "msg": "一轮新月正在冉冉升起！"
+    },
+    {
+      "name": "荣耀行刑官",
+      "avatarUrl": "assets/mod_wx/avatars/lol_draven.png",
+      "sex": "male",
+      "msg": "欢迎来到德莱联盟！"
+    },
+    {
+      "name": "祖安狂人",
+      "avatarUrl": "assets/mod_wx/avatars/lol_drmundo.png",
+      "sex": "male",
+      "msg": "蒙多！"
+    },
+    {
+      "name": "时间刺客",
+      "avatarUrl": "assets/mod_wx/avatars/lol_ekko.png",
+      "sex": "male",
+      "msg": "时间不在于你拥有多少，而在于你怎样使用。"
+    },
+    {
+      "name": "蜘蛛女皇",
+      "avatarUrl": "assets/mod_wx/avatars/lol_elise.png",
+      "sex": "female",
+      "msg": "我将为他们展示，通向神性的方式。 "
+    },
+    {
+      "name": "痛苦之拥",
+      "avatarUrl": "assets/mod_wx/avatars/lol_evelynn.png",
+      "sex": "female",
+      "msg": "黑夜，就是我的面纱。哈哈哈哈……"
+    },
+    {
+      "name": "探险家",
+      "avatarUrl": "assets/mod_wx/avatars/lol_ezreal.png",
+      "sex": "male",
+      "msg": "是时候表演真正的技术了！"
+    },
+    {
+      "name": "末日使者",
+      "avatarUrl": "assets/mod_wx/avatars/lol_fiddlesticks.png",
+      "sex": "male",
+      "msg": "诅咒降临!"
+    },
+    {
+      "name": "无双剑姬",
+      "avatarUrl": "assets/mod_wx/avatars/lol_fiora.png",
+      "sex": "female",
+      "msg": "我渴望有价值的对手！"
+    },
+    {
+      "name": "潮汐海灵",
+      "avatarUrl": "assets/mod_wx/avatars/lol_fizz.png",
+      "sex": "male",
+      "msg": "看我吃掉它们！"
+    },
+    {
+      "name": "正义巨像",
+      "avatarUrl": "assets/mod_wx/avatars/lol_galio.png",
+      "sex": "male",
+      "msg": "石像展翅！"
+    },
+    {
+      "name": "海洋之灾",
+      "avatarUrl": "assets/mod_wx/avatars/lol_gangplank.png",
+      "sex": "male",
+      "msg": "准备登船！"
+    },
+    {
+      "name": "德玛西亚之力",
+      "avatarUrl": "assets/mod_wx/avatars/lol_garen.png",
+      "sex": "male",
+      "msg": "人在塔在！"
+    },
+    {
+      "name": "迷失之牙",
+      "avatarUrl": "assets/mod_wx/avatars/lol_gnar.png",
+      "sex": "male",
+      "msg": "纳尔,大大!"
+    },
+    {
+      "name": "酒桶",
+      "avatarUrl": "assets/mod_wx/avatars/lol_gragas.png",
+      "sex": "male",
+      "msg": "你买单，我就来！"
+    },
+    {
+      "name": "法外狂徒",
+      "avatarUrl": "assets/mod_wx/avatars/lol_graves.png",
+      "sex": "male",
+      "msg": "我与死亡同行！"
+    },
+    {
+      "name": "战争之影",
+      "avatarUrl": "assets/mod_wx/avatars/lol_hecarim.png",
+      "sex": "male",
+      "msg": "见识下暗影岛之秘吧！"
+    },
+    {
+      "name": "大发明家",
+      "avatarUrl": "assets/mod_wx/avatars/lol_heimerdinger.png",
+      "sex": "male",
+      "msg": "阿~哈，确实是个明智的选择！"
+    },
+    {
+      "name": "海兽祭司",
+      "avatarUrl": "assets/mod_wx/avatars/lol_illaoi.png",
+      "sex": "male",
+      "msg": "即使身死,我也是在运动中消亡。"
+    },
+    {
+      "name": "刀锋舞者",
+      "avatarUrl": "assets/mod_wx/avatars/lol_irelia.png",
+      "sex": "female",
+      "msg": "我的剑刃愿为您效劳！"
+    },
+    {
+      "name": "翠神",
+      "avatarUrl": "assets/mod_wx/avatars/lol_ivern.png",
+      "sex": "male",
+      "msg": "我最爱的颜色,就是春色"
+    },
+    {
+      "name": "风暴之怒",
+      "avatarUrl": "assets/mod_wx/avatars/lol_janna.png",
+      "sex": "female",
+      "msg": "风之化身，听候您的差遣！"
+    },
+    {
+      "name": "德玛西亚皇子",
+      "avatarUrl": "assets/mod_wx/avatars/lol_jarvaniv.png",
+      "sex": "male",
+      "msg": "犯我德邦者，虽远必诛！"
+    },
+    {
+      "name": "武器大师",
+      "avatarUrl": "assets/mod_wx/avatars/lol_jax.png",
+      "sex": "male",
+      "msg": "开打开打！"
+    },
+    {
+      "name": "未来守护者",
+      "avatarUrl": "assets/mod_wx/avatars/lol_jayce.png",
+      "sex": "male",
+      "msg": "为了更美好的明天而战！"
+    },
+    {
+      "name": "戏命师",
+      "avatarUrl": "assets/mod_wx/avatars/lol_jhin.png",
+      "sex": "male",
+      "msg": "我于杀戮之中盛放,一如黎明中的花朵。"
+    },
+    {
+      "name": "暴走萝莉",
+      "avatarUrl": "assets/mod_wx/avatars/lol_jinx.png",
+      "sex": "female",
+      "msg": "我有——最美好的初衷"
+    },
+    {
+      "name": "虚空之女",
+      "avatarUrl": "assets/mod_wx/avatars/lol_kaisa.png",
+      "sex": "female",
+      "msg": "我回来，是为了那些回不来的人"
+    },
+    {
+      "name": "复仇之矛",
+      "avatarUrl": "assets/mod_wx/avatars/lol_kalista.png",
+      "sex": "female",
+      "msg": "变协者、誓约破坏者、告密者,我们讨厌这些人。"
+    },
+    {
+      "name": "天启者",
+      "avatarUrl": "assets/mod_wx/avatars/lol_karma.png",
+      "sex": "female",
+      "msg": "你的悟性不错嘛！"
+    },
+    {
+      "name": "死亡颂唱者",
+      "avatarUrl": "assets/mod_wx/avatars/lol_karthus.png",
+      "sex": "male",
+      "msg": "不用为逝者流泪"
+    },
+    {
+      "name": "虚空行者",
+      "avatarUrl": "assets/mod_wx/avatars/lol_kassadin.png",
+      "sex": "male",
+      "msg": "必须维持力量的均衡！"
+    }
+  ]
+}

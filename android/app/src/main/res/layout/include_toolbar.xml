@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yim_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/fl_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/toolbar_background_color">
+
+            <ImageView
+                android:id="@+id/iv_toolbar_back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/toolbar_back" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/iv_toolbar_back"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/toolbar_text_color"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_toolbar_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/toolbar_text_color"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <!-- 搜索-->
+            <ImageView
+                android:id="@+id/iv_toolbar_search"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="55dp"
+                android:background="@null"
+                android:src="@drawable/toolbar_search"
+                android:visibility="gone" />
+
+            <!--加号菜单-->
+            <ImageView
+                android:id="@+id/iv_toolbar_add"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:background="@null"
+                android:src="@drawable/toolbar_add"
+                android:visibility="gone" />
+
+            <!--更多按钮-->
+            <ImageView
+                android:id="@+id/iv_toolbar_more"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:background="@null"
+                android:src="@drawable/toolbar_more" />
+
+            <!-- 添加朋友 -->
+            <TextView
+                android:id="@+id/tv_toolbar_add_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:text="添加朋友"
+                android:textColor="@color/toolbar_text_color"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <!--&lt;!&ndash;搜索&ndash;&gt;-->
+            <!--<LinearLayout-->
+            <!--android:id="@+id/llToolbarSearch"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginLeft="100px"-->
+            <!--android:layout_marginRight="20px"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="vertical"-->
+            <!--android:visibility="visible">-->
+
+            <!--<EditText-->
+            <!--android:id="@+id/etSearchContent"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10px"-->
+            <!--android:background="@null"-->
+            <!--android:drawableLeft="@drawable/toolbar_search"-->
+            <!--android:drawablePadding="10dp"-->
+            <!--android:hint="查找"-->
+            <!--android:maxLines="1"-->
+            <!--android:textColor="@color/module_top_bar_text_color"-->
+            <!--android:textColorHint="@color/module_bottom_bar_text_color"-->
+            <!--android:textSize="12sp" />-->
+
+            <!--&lt;!&ndash;<View&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="3px"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginTop="10px"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@drawable/shape_bottom_green"/>&ndash;&gt;-->
+            <!--</LinearLayout>-->
+
+            <!--&lt;!&ndash;发送按钮&ndash;&gt;-->
+            <!--<Button-->
+            <!--android:id="@+id/btnToolbarSend"-->
+            <!--android:layout_width="120px"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_margin="20px"-->
+            <!--android:background="@drawable/selector_login_btn"-->
+            <!--android:text="@string/send"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:visibility="gone"/>-->
+
+
+        </RelativeLayout>
+    </FrameLayout>
+</com.google.android.material.appbar.AppBarLayout>

@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">FBYim</string>
+    <string name="app_version_text">个人毕业设计版 v0.0.1</string>
     <string name="open_native">open native page</string>
     <string name="open_flutter">open flutter page</string>
     <string name="open_flutter_fragment">open flutter fragment page</string>
     <string name="native_info">This is a native activity</string>
+
+    <!-- 设置 -->
+    <string name="setting_1">账号与安全</string>
+    <string name="setting_2">新消息提醒</string>
+    <string name="setting_3">勿扰模式</string>
+    <string name="setting_4">聊天</string>
+    <string name="setting_5">隐私</string>
+    <string name="setting_6">通用</string>
+    <string name="setting_7">关于微信</string>
+    <string name="setting_8">帮助与反馈</string>
+    <string name="setting_9">插件</string>
+    <string name="setting_10">切换账号</string>
+    <string name="setting_11">退出</string>
+
+    <string name="chat_album_text">相册</string>
+    <string name="chat_camera_text">拍摄</string>
+    <string name="chat_voice_call_text">视频通话</string>
+    <string name="chat_location_text">位置</string>
+    <string name="chat_red_packet_text">红包</string>
+    <string name="chat_voice_input_text">语言输入</string>
+    <string name="chat_contact_card_text">名片</string>
+    <string name="chat_files_text">文件</string>
 </resources>

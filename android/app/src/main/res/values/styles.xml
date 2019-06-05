@@ -5,4 +5,64 @@
              Flutter draws its first frame -->
         <item name="android:windowBackground">@drawable/launch_background</item>
     </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--启动界面主题-->
+    <style name="App.Theme.Launch" parent="Base.App.Theme">
+        <item name="android:windowBackground">@mipmap/splash_page</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Base.App.Theme" parent="Base.App.Theme.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!--base theme light-->
+    <style name="Base.App.Theme.Light" parent="@style/Theme.AppCompat.Light"/>
+    <!-- 第三方登录注册样式 -->
+    <style name="horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+    <style name="AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_left</item>
+    </style>
+
+    <!-- “联系人”、“发现” 和 “我的” 页面 分隔线 格式抽取 -->
+    <style name="ui_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.6dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:background">@color/option_item_line_color</item>
+    </style>
+
+    <!-- 设置子项 -->
+    <style name="setting_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/module_option_items</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:textColor">@color/option_item_name_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- func -->
+    <style name="func_img">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
 </resources>

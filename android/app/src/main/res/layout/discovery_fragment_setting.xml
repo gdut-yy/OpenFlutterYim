@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/module_center_background_color"
+    android:orientation="vertical"
+    tools:context=".view.activity.SettingActivity">
+
+    <TextView
+        style="@style/setting_item"
+        android:text="@string/setting_1" />
+
+    <View style="@style/ui_line" />
+
+    <TextView
+        style="@style/setting_item"
+        android:layout_marginTop="10dp"
+        android:text="@string/setting_2" />
+
+    <View style="@style/ui_line" />
+
+    <TextView
+        style="@style/setting_item"
+        android:text="@string/setting_3" />
+
+    <View style="@style/ui_line" />
+
+    <TextView
+        style="@style/setting_item"
+        android:text="@string/setting_4" />
+
+    <View style="@style/ui_line" />
+
+    <TextView
+        style="@style/setting_item"
+        android:text="@string/setting_5" />
+
+    <View style="@style/ui_line" />
+
+    <TextView
+        style="@style/setting_item"
+        android:text="@string/setting_6" />
+
+    <View style="@style/ui_line" />
+
+    <TextView
+        style="@style/setting_item"
+        android:layout_marginTop="10dp"
+        android:text="@string/setting_7" />
+
+    <View style="@style/ui_line" />
+
+    <TextView
+        style="@style/setting_item"
+        android:text="@string/setting_8" />
+
+    <View style="@style/ui_line" />
+
+    <TextView
+        style="@style/setting_item"
+        android:layout_marginTop="10dp"
+        android:text="@string/setting_9" />
+
+    <View style="@style/ui_line" />
+
+    <TextView
+        style="@style/setting_item"
+        android:layout_marginTop="10dp"
+        android:text="@string/setting_10" />
+
+    <View style="@style/ui_line" />
+
+    <TextView
+        android:id="@+id/tv_setting_logout"
+        style="@style/setting_item"
+        android:text="@string/setting_11" />
+
+    <View style="@style/ui_line" />
+
+</LinearLayout>

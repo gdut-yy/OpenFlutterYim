@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/module_center_background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_chat_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toTopOf="@+id/chat_line" />
+
+        <View
+            android:id="@+id/chat_line1"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/module_chat_line_color" />
+
+        <!-- 输入栏控件 -->
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/module_chat_bottom_bar_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:id="@+id/iv_chat_voice"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/chat_voice" />
+
+            <EditText
+                android:id="@+id/et_chat_input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/iv_chat_emoji"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/chat_emoji" />
+
+            <ImageView
+                android:id="@+id/iv_chat_more"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/chat_more"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_chat_send"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="5dp"
+                android:background="@color/module_detail_send_btn_normal_color"
+                android:text="发送"
+                android:textColor="@color/option_item_normal_color"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/chat_line2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/module_chat_line_color" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flEmotionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="350px"
+        android:visibility="gone">
+        <!--表情-->
+        <com.devyy.flutter.yim.emoticon.EmoticonLayout
+            android:id="@+id/elEmotion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+        <!--其他功能-->
+        <include
+            android:id="@+id/llMore"
+            layout="@layout/include_extra_keyboard"
+            android:visibility="gone" />
+    </FrameLayout>
+
+
+</LinearLayout>

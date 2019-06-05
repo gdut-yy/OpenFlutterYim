@@ -10,7 +10,11 @@ import java.util.Map;
 import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugins.GeneratedPluginRegistrant;
 
-
+/**
+ * 以 FlutterFragment 显示 Flutter
+ *
+ * @since 2019-05-14
+ */
 public class FlutterFragment extends BoostFlutterFragment {
 
     @Override

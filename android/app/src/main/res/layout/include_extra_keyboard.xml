@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/emoticon_background_color">
+
+    <!-- 相册 -->
+    <LinearLayout
+        android:id="@+id/rl_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/rl_red_packet"
+        app:layout_constraintEnd_toStartOf="@+id/rl_camera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_album"
+            style="@style/func_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chat_album" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/chat_album_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- 拍摄 -->
+    <LinearLayout
+        android:id="@+id/rl_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/rl_voice_input"
+        app:layout_constraintEnd_toStartOf="@+id/rl_voice_call"
+        app:layout_constraintStart_toEndOf="@+id/rl_album"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_camera"
+            style="@style/func_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chat_camera" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/chat_camera_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- 视频通话 -->
+    <LinearLayout
+        android:id="@+id/rl_voice_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/rl_contact_card"
+        app:layout_constraintEnd_toStartOf="@+id/rl_location"
+        app:layout_constraintStart_toEndOf="@+id/rl_camera"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_voice_call"
+            style="@style/func_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chat_voice_call" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/chat_voice_call_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- 位置 -->
+    <LinearLayout
+        android:id="@+id/rl_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/rl_files"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rl_voice_call"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_location"
+            style="@style/func_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chat_location" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/chat_location_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- 红包 -->
+    <LinearLayout
+        android:id="@+id/rl_red_packet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rl_voice_input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_album">
+
+        <ImageView
+            android:id="@+id/iv_red_packet"
+            style="@style/func_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chat_red_packet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/chat_red_packet_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- 语音输入 -->
+    <LinearLayout
+        android:id="@+id/rl_voice_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rl_contact_card"
+        app:layout_constraintStart_toEndOf="@+id/rl_red_packet"
+        app:layout_constraintTop_toBottomOf="@+id/rl_camera">
+
+        <ImageView
+            android:id="@+id/iv_voice_input"
+            style="@style/func_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chat_voice_input" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/chat_voice_input_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- 名片 -->
+    <LinearLayout
+        android:id="@+id/rl_contact_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rl_files"
+        app:layout_constraintStart_toEndOf="@+id/rl_voice_input"
+        app:layout_constraintTop_toBottomOf="@+id/rl_voice_call">
+
+        <ImageView
+            android:id="@+id/iv_contact_card"
+            style="@style/func_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chat_contact_card" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/chat_contact_card_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- 文件 -->
+    <LinearLayout
+        android:id="@+id/rl_files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rl_contact_card"
+        app:layout_constraintTop_toBottomOf="@+id/rl_location">
+
+        <ImageView
+            android:id="@+id/iv_files"
+            style="@style/func_img"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/chat_files" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/chat_files_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

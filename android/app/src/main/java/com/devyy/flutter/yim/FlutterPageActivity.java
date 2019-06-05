@@ -8,6 +8,9 @@ import java.util.Map;
 import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugins.GeneratedPluginRegistrant;
 
+/**
+ * 以 FlutterActivity 显示 Flutter
+ */
 public class FlutterPageActivity extends BoostFlutterActivity {
 
     @Override
@@ -27,8 +30,6 @@ public class FlutterPageActivity extends BoostFlutterActivity {
      *     });
      *
      * 该方法中返回的就是注册的key：first , second
-     *
-     * @return
      */
     @Override
     public String getContainerName() {
@@ -46,8 +47,6 @@ public class FlutterPageActivity extends BoostFlutterActivity {
      *     });
      *
      * 该方法返回的参数就会封装成上面的params
-     *
-     * @return
      */
     @Override
     public Map getContainerParams() {

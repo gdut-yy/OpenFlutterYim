@@ -2,14 +2,19 @@ package com.devyy.flutter.yim;
 
 import android.os.Build;
 import android.os.Bundle;
+
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.Window;
 import android.view.WindowManager;
 
 import io.flutter.plugin.platform.PlatformPlugin;
 
+/**
+ * @since 2019-05-14
+ */
 public class FlutterFragmentPageActivity extends AppCompatActivity {
 
     private FlutterFragment mFragment;
@@ -26,7 +31,7 @@ public class FlutterFragmentPageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         final ActionBar actionBar = getSupportActionBar();
-        if(actionBar != null) {
+        if (actionBar != null) {
             actionBar.hide();
         }
 
@@ -36,7 +41,7 @@ public class FlutterFragmentPageActivity extends AppCompatActivity {
 
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.fragment_stub,mFragment)
+                .replace(R.id.fragment_stub, mFragment)
                 .commit();
     }
 }

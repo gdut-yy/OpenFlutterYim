@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 【推荐】color 资源使用 #AARRGGBB 格式，写入 module_colors.xml 文件中，命名格式采用以下规则： -->
+    <!-- 模块名_逻辑名称_颜色 -->
+    <!-- 如： -->
+    <!-- <color name = "module_btn_bg_color">#33b5e5e5</color> -->
+
+
+    <!-- #RRGGBB 格式（使用 ps 直接取样色）-->
+    <color name="dark_green_color">#3C4E34</color>
+
+    <!-- App Toolbar -->
+    <color name="toolbar_background_color">#FFEDEDED</color>
+    <color name="toolbar_text_color">#FF181818</color>
+
+    <!-- App submenu -->
+    <color name="submenu_item_normal_color">#393A3F</color>
+    <color name="submenu_item_pressed_color">#2F3336</color>
+    <color name="submenu_item_text_color">#FFFFFF</color>
+    <color name="submenu_item_line_color">#191B1C</color>
+
+    <color name="module_center_background_color">#EBEBEB</color>
+
+    <!-- App bottom_bar -->
+    <color name="bottom_bar_background_color">#FCFCFC</color>
+    <color name="bottom_bar_normal_color">#999999</color>
+    <color name="bottom_bar_pressed_color">#46C01B</color>
+
+    <!-- App 通用 OptionItem 子项 -->
+    <color name="option_item_line_color">#D7D7D7</color>
+    <color name="option_item_name_color">#353535</color>
+    <color name="option_item_content_color">#A9A9A9</color>
+    <color name="option_item_normal_color">#FFFFFF</color>
+    <color name="option_item_pressed_color">#BFBFBF</color>
+
+    <!-- 快速索引bar 颜色-->
+    <color name="module_slide_bar_text_color">#4A4A4A</color>
+    <color name="module_slide_bar_pressed_color">#BFBFBF</color>
+    
+    <!-- 详细资料 -->
+    <color name="module_detail_send_btn_normal_color">#1AAD19</color>
+    <color name="module_detail_video_btn_normal_color">#F8F8F8</color>
+    <color name="module_detail_text_color">#181818</color>
+
+    <!-- 聊天页面 -->
+    <color name="module_chat_line_color">#D8D8D8</color>
+    <color name="module_chat_bottom_bar_color">#F4F4F4</color>
+
+    <!-- Emoticon 控件 -->
+    <color name="emoticon_line_color">#D6D6D6</color>
+    <color name="emoticon_background_color">#F4F4F4</color>
+    <color name="emoticon_tab_normal_color">#F5F5F5</color>
+    <color name="emoticon_tab_pressed_color">#DEDEDE</color>
+
+
+</resources>

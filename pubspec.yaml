@@ -20,8 +20,29 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # 请尽量使用最新版本 通过 https://pub.dev/ 查看
   # https://github.com/alibaba/flutter_boost
   flutter_boost: ^0.0.411
+
+  # module_wx & module_novel
+  # https://github.com/flutterchina/lpinyin
+  lpinyin: ^1.0.7
+  # https://github.com/dart-lang/web_socket_channel
+  web_socket_channel: ^1.0.12
+  # https://github.com/flutter/plugins
+  webview_flutter: ^0.3.7+1
+  # https://github.com/flutter/plugins
+  image_picker: ^0.6.0+3
+  # https://github.com/renefloor/flutter_cached_network_image
+  cached_network_image: ^0.8.0
+  # https://github.com/serenader2014/flutter_carousel_slider
+  carousel_slider: ^1.3.0
+  # https://github.com/PonnamKarthik/FlutterToast
+  fluttertoast: ^3.0.4
+  # https://github.com/dart-lang/intl
+  intl: ^0.15.8
+
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -42,6 +63,17 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+  # module_wx
+  - assets/mod_wx/
+  - assets/mod_wx/wx7/
+  - assets/mod_wx/wx_mock.json
+  - assets/mod_wx/avatars/
+
+  fonts:
+  - family: appiconFonts
+    fonts:
+      - asset: assets/mod_wx/iconfont.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:

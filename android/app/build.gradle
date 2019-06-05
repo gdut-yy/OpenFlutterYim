@@ -33,12 +33,16 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.devyy.yim"
+        applicationId "com.devyy.flutter.yim"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        // 解决 arm64-v8a 引起的闪退，因为没有64位的libflutter.so文件，flutter当前1.0.0版本的问题
+        ndk {
+            abiFilters "armeabi", "x86", "armeabi-v7a"
+        }
     }
 
     buildTypes {
@@ -48,6 +52,9 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    // use legacy for android > 6.0
+    useLibrary 'org.apache.http.legacy'
 }
 
 flutter {
@@ -56,8 +63,16 @@ flutter {
 
 dependencies {
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    // Optional compile for GCM (Google Cloud Messaging).
+    implementation 'com.google.android.gms:play-services-gcm:16.1.0'
+    implementation 'com.hyphenate:hyphenate-sdk:3.5.5'
+    // glide
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
 }
