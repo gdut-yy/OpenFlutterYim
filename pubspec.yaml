@@ -42,6 +42,32 @@ dependencies:
   # https://github.com/dart-lang/intl
   intl: ^0.15.8
 
+  # module_cloud_music
+  # https://github.com/dart-lang/json_serializable
+  json_annotation: ^2.3.0
+  # https://github.com/flutter/plugins
+  shared_preferences: ^0.5.2
+  # https://github.com/marcojakob/dart-event-bus
+  event_bus: ^1.1.0
+  # https://github.com/brianegan/flutter_redux
+  flutter_redux: ^0.5.3
+  # https://github.com/flutterchina/dio
+  dio: ^2.1.3
+  # https://github.com/best-flutter/flutter_swiper
+  flutter_swiper: ^1.1.6
+  # https://github.com/jogboms/flutter_spinkit
+  flutter_spinkit: ^3.1.0
+  # https://github.com/luanpotter/audioplayers
+  audioplayers: ^0.10.1
+
+  # module_movie
+  # https://github.com/brianegan/scoped_model
+  scoped_model: ^1.0.1
+  # https://github.com/letsar/flutter_staggered_grid_view
+  flutter_staggered_grid_view: ^0.2.7
+  # https://github.com/theyakka/fluro
+  fluro: ^1.4.0
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -69,6 +95,13 @@ flutter:
   - assets/mod_wx/wx7/
   - assets/mod_wx/wx_mock.json
   - assets/mod_wx/avatars/
+  # module_novel
+  - assets/mod_novel/mock/
+  - assets/mod_novel/img/
+  # module_cloud_music
+  - assets/mod_cloud_music/img/
+  # module_movie
+  - assets/mod_movie/img/
 
   fonts:
   - family: appiconFonts
