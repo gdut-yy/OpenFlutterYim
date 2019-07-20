@@ -60,14 +60,21 @@ dependencies:
   # https://github.com/luanpotter/audioplayers
   audioplayers: ^0.10.1
 
-  # module_movie
-  # https://github.com/brianegan/scoped_model
-  scoped_model: ^1.0.1
-  # https://github.com/letsar/flutter_staggered_grid_view
-  flutter_staggered_grid_view: ^0.2.7
-  # https://github.com/theyakka/fluro
-  fluro: ^1.4.0
-
+  # module_douban
+  # https://github.com/flutter/plugins
+  share: ^0.6.1+1
+  # https://github.com/dart-lang/http
+  http: ^0.12.0+2
+  # https://github.com/dart-lang/html
+  html: ^0.14.0+2
+  # https://github.com/flutter/packages
+  palette_generator: ^0.1.1
+  # https://github.com/renancaraujo/photo_view
+  photo_view: ^0.3.3
+  # https://github.com/brianegan/chewie
+  chewie: ^0.9.7
+  # https://github.com/flutter/plugins
+  video_player: ^0.10.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -100,8 +107,8 @@ flutter:
   - assets/mod_novel/img/
   # module_cloud_music
   - assets/mod_cloud_music/img/
-  # module_movie
-  - assets/mod_movie/img/
+  # module_douban
+  - assets/mod_douban/img/
 
   fonts:
   - family: appiconFonts

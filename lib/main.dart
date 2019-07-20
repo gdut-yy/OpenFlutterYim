@@ -11,7 +11,7 @@ import 'package:flutter_yim/module_wx/pages/sub_search_page.dart';
 import 'package:flutter_yim/module_wx/values/colors.dart';
 
 import 'module_cloud_music/page/home_page.dart';
-import 'module_movie/pages/movie/mod_movie_page.dart';
+import 'module_douban/home/home_scene.dart';
 import 'module_novel/home/mod_novel_page.dart';
 import 'module_wx/common/data_model.dart';
 import 'module_wx/pages/sub_github_page.dart';
@@ -101,7 +101,7 @@ final routeMap = <String, WidgetBuilder>{
   'momentsPage': (BuildContext context) => new SubMomentsPage(),
 
   /// => Yim豆瓣模块入口
-  'moviePage': (BuildContext context) => new ModMoviePage(),
+  'moviePage': (BuildContext context) => new ModDoubanPage(),
 
   /// => Yim读书模块入口
   'novelPage': (BuildContext context) => new ModNovelPage(),
